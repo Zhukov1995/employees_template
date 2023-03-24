@@ -1,0 +1,13 @@
+.btn-group {
+    margin-top: 20px;
+}
+
+@media(max-width: 600px) {
+    .btn-group {
+        display: flex;
+        flex-flow: column;
+    }
+    .btn {
+        margin-bottom: 10px;
+    }
+}

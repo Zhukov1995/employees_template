@@ -1,0 +1,16 @@
+.app-info {
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    color: #fff;
+}
+
+@media(max-width: 501px) {
+    .app-info h1 {
+        font-size: 23px;
+    }
+    .app-info h2 {
+        font-size: 17px;
+    }
+}
